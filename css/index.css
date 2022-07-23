@@ -316,5 +316,20 @@
     margin-top: 60px;
     width: 950px;
     height: 185px;
-    border: 1px solid #000;
+    /*border: 1px solid #000;*/
+}
+
+.customers > p{
+    font-size: 20px;
+    font-weight: bold;
+    color: #004B8B;
+    display: inline;
+}
+.customers > span{
+    font-size: 18px;
+    color: #666666;
+}
+
+.customers .bottom{
+    margin-top: 25px;
 }
