@@ -93,7 +93,9 @@
     font-size: 14px;
     color: #666;
 }
-.bottom .item{
+
+/*      .introduction  start      */
+.introduction .bottom .item{
     margin-top: 22px;
     width: 300px;
     height: 130px;
@@ -104,25 +106,25 @@
     font-size: 12px;
 }
 
-.bottom .item p {
+.introduction  .bottom .item p {
     line-height: 35px;
     color: white;
     height: 60px;
     background-color: #00659C;
 }
 
-.bottom .item p b {
+.introduction .bottom .item p b {
     margin-left: 25px;
     display: block;
     height: 20px;
     font-weight: bold;
 }
 
-.bottom .item p span {
+.introduction .bottom .item p span {
     margin-left: 25px;
 }
 
-.bottom .item > span {
+.introduction .bottom .item > span {
     float: left;
     margin: 18px 25px 0;
     height: 70px;
@@ -132,10 +134,13 @@
     /*background-color: white;*/
 }
 
+
 .introduction-warp{
     height: 375px;
     background-color: #ffffff;
 }
+
+/*      .introduction end       */
 
 /*      service start   */
 
@@ -185,19 +190,57 @@
 
 /*      service end   */
 
-
-.content4-wrap{
+/*      case start      */
+.case-wrap{
     height: 475px;
     background-color: white;
-    border: 1px solid #E7E7E7;
+    /*border: 1px solid #E7E7E7;*/
 }
 
-.success-stories{
+.case{
     width: 955px;
     height: 360px;
-    border: 1px solid #000;
+    /*border: 1px solid #000;*/
     margin-top: 65px;
 }
+
+.case > p{
+    font-size: 20px;
+    font-weight: bold;
+    color: #004B8B;
+    display: inline;
+}
+
+.case > span{
+    font-size: 18px;
+    color: #666666;
+}
+
+
+.case .bottom .item{
+    margin-top: 22px;
+    width: 295px;
+    height: 315px;
+    float: left;
+    /*border: 1px solid #666666;*/
+}
+
+.case .bottom .item{
+    margin-right: 21px;
+}
+.case .bottom .item .img{}
+.case .bottom .item p{
+    margin-top: 20px;
+}
+.case .bottom .item span{
+    margin-top: 10px;
+    display: block;
+    color: #666666;
+    font-size: 12px;
+}
+
+
+/*      case end      */
 
 .content5{
     height: 760px;
