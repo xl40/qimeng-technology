@@ -137,15 +137,54 @@
     background-color: #ffffff;
 }
 
-.content3-warp{
+/*      service start   */
+
+.service-warp{
     height: 100px;
     background-color: #006EAA;
 }
 
-.content3{
+.service{
     width: 955px;
     margin: 0 auto;
 }
+.service .left p{
+    line-height: 100px;
+    color: white;
+    font-size: 20px;
+    width: 250px;
+    float: left;
+}
+
+.service .right p{
+    width: 190px;
+    border: 1px solid #fff;
+    /*margin-top: 25px;*/
+    color: white;
+    float: right;
+    height: 100px;
+    text-align: center;
+    padding-top: 20px;
+    /*padding: 0 25px;*/
+    /*margin-right: 50px;*/
+}
+
+.service .right strong{
+    display: block;
+    font-size: 14px;
+}
+
+.service .right b{
+    color: #FFB527;
+    font-size: 30px;
+}
+
+.service .right span{
+    font-size: 16px;
+}
+
+/*      service end   */
+
 
 .content4-wrap{
     height: 475px;
