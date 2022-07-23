@@ -8,8 +8,63 @@
     margin-top: 60px;
     width: 950px;
     height: 835px;
-    border: 1px solid #000;
+    /*border: 1px solid #000;*/
 }
+
+
+.products .row1 p{
+    font-size: 28px;
+    font-weight: bold;
+    color: #004B8B;
+    display: inline;
+    /*border: 1px solid #000;*/
+}
+.products .row1 span{
+    font-size: 16px;
+    color: #666666;
+    margin-left: 15px;
+    line-height: 60px;
+    /*border: 1px solid #000;*/
+}
+
+.products .row1 b{
+    font-size: 12px;
+    color: #666666;
+    float: right;
+    line-height: 50px;
+    /*border: 1px solid #000;*/
+}
+
+.products span{
+    font-size: 14px;
+}
+
+.products .row2{
+    width: 580px;
+}
+
+.products .item{
+    margin-top: 10px;
+    width: 580px;
+    height: 20px;
+}
+
+.products .row2 p{
+    width: 77px;
+    height: 20px;
+    background-color: #00659C;
+    color: white;
+    font-size: 12px;
+    padding-left: 5px;
+    line-height: 20px;
+    float: left;
+}
+
+.products .row2 span{
+    float: left;
+    margin-left: 15px;
+}
+    /**********************************************************/
 
 .enquire{
     margin-top: 60px;
