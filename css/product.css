@@ -66,6 +66,72 @@
 }
     /**********************************************************/
 
+.products .top{
+    margin-top: 30px;
+}
+
+.products .top .left{
+    float: left;
+    width: 160px;
+    height: 190px;
+    border: 1px solid #666666;
+}
+.products .top .center{
+    float: left;
+    width: 370px;
+    height: 190px;
+    border: 1px solid #666666;
+    margin-inline: 22px;
+}
+.products .top .right{
+    float: left;
+    width: 370px;
+    height: 190px;
+    border: 1px solid #666666;
+}
+
+.products .top .item{
+    width: 100px;
+    height: 30px;
+    border: 1px solid #666666;
+    text-align: center;
+    margin-left: 25px;
+}
+
+
+    /***************************/
+
+.products .mid{
+    margin-top: 30px;
+}
+
+.products .mid .left{
+    float: left;
+    width: 465px;
+    height: 190px;
+    border: 1px solid #666666;
+    margin-right: 16px;
+}
+
+.products .mid .right{
+    float: left;
+    width: 465px;
+    height: 190px;
+    border: 1px solid #666666;
+}
+
+/*********************************************/
+
+.products .bottom {
+    margin-top: 25px;
+    float: left;
+    width: 955px;
+    height: 187px;
+    border: 1px solid #666666;
+}
+
+/**********************************************************/
+
 .enquire{
     margin-top: 60px;
     width: 950px;
