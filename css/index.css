@@ -242,7 +242,7 @@
 
 /*      case end      */
 
-.content5{
+.news-wrap{
     height: 760px;
     background-color: white;
     border: 1px solid #E7E7E7;
@@ -252,8 +252,65 @@
     margin-top: 60px;
     width: 950px;
     height: 375px;
-    border: 1px solid #000;
+    /*border: 1px solid #000;*/
 }
+
+.news > p{
+    font-size: 20px;
+    font-weight: bold;
+    color: #004B8B;
+    display: inline;
+}
+.news > span{
+    font-size: 18px;
+    color: #666666;
+}
+
+.news .top{
+    /*height: 375px;*/
+    width: 950px;
+}
+.news .top .left{
+    float: left;
+    height: 575px;
+    margin-top: 35px;
+    /*border: 1px solid #000;*/
+}
+
+.news .top .left .item{
+    border-bottom: 1px dotted #666666;
+    width: 550px;
+    height: 115px;
+}
+
+.news .top .left .item .img{
+    float: left;
+    margin-top: 20px;
+}
+.news .top .left .item .item-right{
+    float: right;
+    width: 430px;
+    margin-top: 30px;
+}
+
+.news .top .left .item span{
+    display: block;
+    font-size: 12px;
+}
+
+.news .top .right{
+    float: right;
+    width: 375px;
+    height: 315px;
+    margin-top: 60px;
+}
+.news .bottom{
+
+
+
+}
+
+/*      news end*/
 
 .customers{
     margin-top: 60px;
