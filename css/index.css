@@ -11,26 +11,128 @@
 
 .sub-banner{
     height: 250px;
-    width: 960px;
-    background-color: #00659C;
+    width: 1070px;
+
     margin: 0 auto;
     position: absolute;
     top: -25px;
     left: 21%;
+
+    overflow: hidden;
+    zoom: 1;
 }
 
-.content2{
+
+/*      sub-banner start        */
+
+.sub-banner .item{
+    float: left;
+    border: 1px solid white;
+    height: 253px;
+    width: 213px;
+    margin-right: 35px;
+}
+
+.sub-banner .item .top{
+    width: 215px;
+    height: 160px;
+    background-color: #006EAA;
+    position: relative;
+}
+.sub-banner .item .top .img{
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+    position: absolute;
+    top: 40%;
+    left: 40%;
+}
+.sub-banner .item .top .img img{
+    width: 50px;
+    height: 50px;
+}
+.sub-banner .item .bottom{
+    height: 90px;
+    text-align: center;
+    padding: 25px 0 25px;
+    background-color: white;
+}
+.sub-banner .item .bottom p{
+    font-weight: bold;
+    font-size: 20px;
+
+}
+.sub-banner .item .bottom span{
+    color: #666666;
+}
+
+/*      sub-banner end        */
+
+.introduction{
     height: 250px;
     width: 960px;
     background-color: white;
     margin: 50px auto 0;
-    border: 1px solid #000;
-    /*position: absolute;*/
-    /*top: -25px;*/
-    /*left: 355px;*/
+    /*border: 1px solid #000;*/
 }
 
-.content2-warp{
+.top h1{
+    display: inline;
+    color: #004B8B;
+}
+
+.top span{
+    color: #999;
+}
+
+.middle{
+    margin-top: 30px;
+}
+
+.middle span{
+    font-size: 14px;
+    color: #666;
+}
+.bottom .item{
+    margin-top: 22px;
+    width: 300px;
+    height: 130px;
+    float: left;
+    border: 1px solid #666666;
+    margin-right: 18px;
+    color: white;
+    font-size: 12px;
+}
+
+.bottom .item p {
+    line-height: 35px;
+    color: white;
+    height: 60px;
+    background-color: #00659C;
+}
+
+.bottom .item p b {
+    margin-left: 25px;
+    display: block;
+    height: 20px;
+    font-weight: bold;
+}
+
+.bottom .item p span {
+    margin-left: 25px;
+}
+
+.bottom .item > span {
+    float: left;
+    margin: 18px 25px 0;
+    height: 70px;
+    /*line-height: 70;*/
+    display: block;
+    color: #666666;
+    /*background-color: white;*/
+}
+
+.introduction-warp{
     height: 375px;
     background-color: #ffffff;
 }
