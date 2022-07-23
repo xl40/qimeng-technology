@@ -1,0 +1,12 @@
+.report-wrap{
+    height: 760px;
+    background-color: white;
+    border: 1px solid #E7E7E7;
+}
+
+.report{
+    margin-top: 60px;
+    height: 625px;
+    width: 960px;
+    border: 1px solid #000;
+}

@@ -1,0 +1,19 @@
+.case-wrap{
+    height: 1515px;
+    background-color: white;
+    border: 1px solid #E7E7E7;
+}
+
+.case{
+    margin-top: 60px;
+    width: 950px;
+    height: 835px;
+    border: 1px solid #000;
+}
+
+.sign-up{
+    margin-top: 60px;
+    width: 950px;
+    height: 530px;
+    border: 1px solid #000;
+}

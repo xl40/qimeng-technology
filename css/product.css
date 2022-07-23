@@ -1,0 +1,19 @@
+.products-wrap{
+    height: 1550px;
+    background-color: white;
+    border: 1px solid #E7E7E7;
+}
+
+.products{
+    margin-top: 60px;
+    width: 950px;
+    height: 835px;
+    border: 1px solid #000;
+}
+
+.enquire{
+    margin-top: 60px;
+    width: 950px;
+    height: 530px;
+    border: 1px solid #000;
+}
