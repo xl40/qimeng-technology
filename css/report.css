@@ -71,3 +71,9 @@
     line-height: 25px;
     margin: 15px auto;
 }
+
+.content {
+    width: 960px;
+    height: 545px;
+    margin: 0 auto;
+}
