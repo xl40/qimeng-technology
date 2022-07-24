@@ -1,3 +1,13 @@
+.banner{
+    height: 340px;
+    background-color: #D5D5D5;
+}
+
+.banner-core{
+    width: 960px;
+    padding-top: 0;
+}
+
 .case-wrap{
     height: 1515px;
     background-color: white;
