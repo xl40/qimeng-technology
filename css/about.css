@@ -11,7 +11,7 @@
 
 
 .about-wrap{
-    height: 1757px;
+    height: 1750px;
     background-color: white;
     border: 1px solid #E7E7E7;
 }
@@ -64,4 +64,111 @@
 
 b{
     color: #00659C;
+}
+
+
+.about-wrap .left{
+    padding-top: 30px;
+    margin: 40px auto 0;
+    height: 205px;
+    /*border: 1px solid #000;*/
+    border-top: 1px #666666 dotted;
+    width: 960px;
+    position: relative;
+
+    overflow: hidden;
+    zoom: 1;
+}
+
+.about-wrap .left .img{
+    float: left;
+    /*border: 1px solid #000;*/
+    width: 235px;
+    height: 180px;
+}
+
+.about-wrap .left p{
+    font-size: 20px;
+    font-weight: bold;
+    float: left;
+    /*border: 1px solid #000;*/
+    width: 400px;
+    height: 25px;
+    margin-left: 30px;
+    margin-top: 5px;
+}
+
+.about-wrap .left span{
+    float: left;
+    margin-left: 30px;
+    width: 400px;
+    height: 25px;
+    margin-top: 25px;
+    font-size: 14px;
+    color: #666666;
+}
+
+.about-wrap .left .click{
+    position: absolute;
+    bottom: 26px;
+    left: 49%;
+    border: 1px solid #666666;
+    width: 100px;
+    height: 30px;
+    margin-left: 30px;
+    text-align: center;
+    line-height: 30px;
+}
+
+
+.about-wrap .right{
+    padding-top: 30px;
+    margin: 0 auto;
+    height: 205px;
+    /*border: 1px solid #000;*/
+    border-top: 1px #666666 dotted;
+    width: 960px;
+    position: relative;
+
+    overflow: hidden;
+    zoom: 1;
+}
+
+.about-wrap .right .img{
+    float: right;
+    /*border: 1px solid #000;*/
+    width: 235px;
+    height: 180px;
+}
+
+.about-wrap .right p{
+    font-size: 20px;
+    font-weight: bold;
+    float: left;
+    /*border: 1px solid #000;*/
+    width: 400px;
+    height: 25px;
+    /*margin-right: 30px;*/
+    margin-top: 5px;
+}
+
+.about-wrap .right span{
+    float: left;
+    margin-right: 30px;
+    width: 400px;
+    height: 25px;
+    margin-top: 25px;
+    font-size: 14px;
+    color: #666666;
+}
+
+.about-wrap .right .click{
+    position: absolute;
+    bottom: 26px;
+    l: 0;
+    border: 1px solid #666666;
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
 }
