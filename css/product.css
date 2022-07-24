@@ -75,27 +75,34 @@
     width: 160px;
     height: 190px;
     border: 1px solid #666666;
+    position: relative;
 }
+
 .products .top .center{
     float: left;
     width: 370px;
     height: 190px;
     border: 1px solid #666666;
     margin-inline: 22px;
+    position: relative;
 }
 .products .top .right{
     float: left;
     width: 370px;
     height: 190px;
     border: 1px solid #666666;
+    position: relative;
 }
 
 .products .top .item{
+    position: absolute;
+    left: 25px;
+    top: 70%;
+    float: left;
     width: 100px;
     height: 30px;
     border: 1px solid #666666;
     text-align: center;
-    margin-left: 25px;
 }
 
 
@@ -111,6 +118,7 @@
     height: 190px;
     border: 1px solid #666666;
     margin-right: 16px;
+    position: relative;
 }
 
 .products .mid .right{
@@ -118,6 +126,18 @@
     width: 465px;
     height: 190px;
     border: 1px solid #666666;
+    position: relative;
+}
+
+.products .mid .item{
+    position: absolute;
+    left: 25px;
+    top: 70%;
+    float: left;
+    width: 100px;
+    height: 30px;
+    border: 1px solid #666666;
+    text-align: center;
 }
 
 /*********************************************/
@@ -128,6 +148,55 @@
     width: 955px;
     height: 187px;
     border: 1px solid #666666;
+    position: relative;
+}
+
+
+.products .bottom .item{
+    position: absolute;
+    left: 25px;
+    top: 70%;
+    float: left;
+    width: 100px;
+    height: 30px;
+    line-height: 30px;;
+    border: 1px solid #666666;
+    text-align: center;
+}
+
+.content-box p{
+    margin: 20px 0 0  20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.content-box p{
+    margin: 20px 0 0  20px;
+    font-size: 18px;
+    font-weight: bold;
+    position: relative;
+}
+
+.content-box span{
+    margin: 10px 0 0  20px;
+    display: block;
+    float: left;
+}
+
+.content-box .item{
+    font-size: 14px;
+    line-height: 30px;
+}
+
+.content-box p::after{
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    content: "";
+    width: 25px;
+    height: 2px;
+    background-color: #004B8B;
+
 }
 
 /**********************************************************/
