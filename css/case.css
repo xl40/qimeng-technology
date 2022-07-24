@@ -27,3 +27,18 @@
     height: 530px;
     border: 1px solid #000;
 }
+
+.title{
+    position: relative;
+}
+
+.title p:after{
+    content: "";
+    width: 50px;
+    height: 1px;
+    background-color: #004B8B;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+
+}
