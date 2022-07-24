@@ -22,3 +22,42 @@
     height: 1560px;
     border: 1px solid #000;
 }
+
+
+.about-wrap > p{
+    width: 960px;
+    margin: 0 auto;
+}
+
+.about-wrap .item{
+    width: 960px;
+    margin: 10px auto;
+    overflow: hidden;
+    zoom: 1;
+}
+
+.bg1{
+    background-color: #004B8B;
+}
+
+.bg2{
+    background-color: #666666;
+}
+
+.about-wrap .item span{
+    display: block;
+    width: 20px;
+    height: 20px;
+    color: white;
+
+    float: left;
+    text-align: center;
+    margin-right: 5px;
+    border-radius: 100px;
+    /*line-height: 20;*/
+}
+
+.about-wrap .item p{
+    float: left;
+    width: 900px;
+}
