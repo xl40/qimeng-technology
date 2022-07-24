@@ -1,3 +1,13 @@
+.banner{
+    height: 340px;
+    background-color: #D5D5D5;
+}
+
+.banner-core{
+    width: 960px;
+    padding-top: 0px;
+}
+
 .partners-wrap{
     height: 2610px;
     background-color: white;
@@ -9,4 +19,81 @@
     width: 950px;
     height: 2485px;
     border: 1px solid #000;
+}
+
+.title{
+    border-bottom: 1px #666666 dotted;
+}
+
+.p1{
+    margin-top: 30px;
+    text-align: center;
+    font-size: 30px;
+    color: #00659C;
+    font-weight: bold;
+}
+
+.p2{
+    padding: 2px;
+    margin: 30px auto;
+    width: 400px;
+    height: 64px;
+    /*border: 1px solid #000;*/
+    overflow: hidden;
+    zoom: 1;
+}
+
+.p2 p{
+    width: 62px;
+    height: 62px;
+    border: 2px solid #00659C;
+    float: left;
+    text-align: center;
+    font-size: 36px;
+    color: #00659C;
+    font-weight: bold;
+    line-height: 62px;
+
+}
+
+.p2 span{
+    border-bottom: 1px #666666 solid;
+    width: 295px;
+    display: block;
+    float: left;
+    font-size: 26px;
+    color: #00659C;
+    font-weight: bold;
+    padding-left: 15px;
+}
+
+.p2 b{
+    display: block;
+    width: 295px;
+    height: 28px;
+    line-height: 28px;
+    float: left;
+    font-size: 16px;
+    color: #666666;
+    font-weight: bold;
+    padding-left: 15px;
+}
+
+.p3{
+    width: 765px;
+    height: 185px;
+    border: 1px solid #000;
+    margin: 0 auto;
+    overflow: hidden;
+    zoom: 1;
+}
+.p3 p{
+    width: calc(100% / 3 - 2px - 40px);
+    height: 184px;
+    border: 1px solid #000;
+    float: left;
+}
+
+.p3 p:nth-child(2){
+    margin-inline: 60px;
 }
