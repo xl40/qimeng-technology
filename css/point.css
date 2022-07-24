@@ -1,0 +1,138 @@
+.banner{
+    height: 340px;
+    background-color: #D5D5D5;
+}
+
+.banner-core{
+    width: 960px;
+    padding-top: 0px;
+}
+
+
+
+.point-wrap{
+    height: 1380px;
+    background-color: white;
+    border: 1px solid #E7E7E7;
+}
+
+.about{
+    margin-top: 60px;
+    width: 950px;
+    height: 1560px;
+    border: 1px solid #000;
+}
+
+p{
+    font-size: 12px;
+    /*color: #999;*/
+}
+
+.point-wrap > p{
+    width: 960px;
+    margin: 0 auto;
+}
+
+.point-wrap .left{
+    margin: 30px auto;
+    height: 205px;
+    /*border: 1px solid #000;*/
+    border-bottom: 1px #666666 dotted;
+    width: 960px;
+    position: relative;
+    
+    overflow: hidden;
+    zoom: 1;
+}
+
+.point-wrap .left .img{
+    float: left;
+    /*border: 1px solid #000;*/
+    width: 235px;
+    height: 180px;
+}
+
+.point-wrap .left p{
+    font-size: 20px;
+    font-weight: bold;
+    float: left;
+    /*border: 1px solid #000;*/
+    width: 600px;
+    height: 25px;
+    margin-left: 30px;
+    margin-top: 5px;
+}
+
+.point-wrap  span{
+    width: 695px;
+    height: 25px;
+    margin-top: 25px;
+    font-size: 14px;
+    color: #666666;
+}
+
+.point-wrap .left span{
+    float: left;
+    margin-left: 30px;
+}
+
+.point-wrap .left .click{
+    position: absolute;
+    bottom: 26px;
+    left: 25%;
+    border: 1px solid #666666;
+    width: 100px;
+    height: 30px;
+    margin-left: 30px;
+    text-align: center;
+    line-height: 30px;
+}
+
+
+.point-wrap .right{
+    margin: 30px auto;
+    height: 205px;
+    /*border: 1px solid #000;*/
+    border-bottom: 1px #666666 dotted;
+    width: 960px;
+    position: relative;
+
+    overflow: hidden;
+    zoom: 1;
+}
+
+.point-wrap .right .img{
+    float: right;
+    /*border: 1px solid #000;*/
+    width: 235px;
+    height: 180px;
+}
+
+.point-wrap .right p{
+    font-size: 20px;
+    font-weight: bold;
+    float: right;
+    /*border: 1px solid #000;*/
+    width: 600px;
+    height: 25px;
+    margin-right: 30px;
+    margin-top: 5px;
+    text-align: right;
+}
+
+.point-wrap .right span{
+    float: right;
+    margin-right: 30px;
+}
+
+.point-wrap .right .click{
+    position: absolute;
+    bottom: 26px;
+    right: 28%;
+    border: 1px solid #666666;
+    width: 100px;
+    height: 30px;
+    margin-left: 30px;
+    text-align: center;
+    line-height: 30px;
+}

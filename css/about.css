@@ -22,13 +22,3 @@
     height: 1560px;
     border: 1px solid #000;
 }
-
-p{
-    font-size: 12px;
-    /*color: #999;*/
-}
-
-.about-wrap > p{
-    width: 960px;
-    margin: 0 auto;
-}
