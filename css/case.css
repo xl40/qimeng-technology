@@ -53,3 +53,25 @@
 .text1{
     color: #999;
 }
+
+.content .item {
+    width: calc(100% / 4 - 8px);
+    height: 270px;
+    float: left;
+    margin-right: 8px;
+    margin-bottom: 10px;
+    background-color: #00659C;
+    position: relative;
+    overflow: hidden;
+    border: 1px solid #000;
+}
+
+.content .item:nth-child(4n){
+    margin-right: 0;
+}
+
+.content {
+    width: 960px;
+    height: 545px;
+    margin: 0 auto;
+}
