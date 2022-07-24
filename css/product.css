@@ -12,14 +12,14 @@
 }
 
 
-.products .row1 p{
+.products .title p{
     font-size: 28px;
     font-weight: bold;
     color: #004B8B;
     display: inline;
     /*border: 1px solid #000;*/
 }
-.products .row1 span{
+.products .title span{
     font-size: 16px;
     color: #666666;
     margin-left: 15px;
@@ -27,7 +27,7 @@
     /*border: 1px solid #000;*/
 }
 
-.products .row1 b{
+.products .title b{
     font-size: 12px;
     color: #666666;
     float: right;
